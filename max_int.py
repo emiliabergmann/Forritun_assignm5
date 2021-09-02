@@ -12,3 +12,13 @@
 #6. When a negative value is entered, the program will print out the largest number that the user has entered.
 
 
+num_int = int(input("Input a number: "))    # Do not change this line
+
+max_int = 0
+# Fill in the missing code
+while num_int >= 0:
+    if num_int > max_int:
+        max_int = num_int
+    num_int = int(input("Input a number: "))
+print("The maximum is", max_int)    # Do not change this line  # Do not change this line
+
